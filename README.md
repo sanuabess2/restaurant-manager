@@ -22,15 +22,6 @@
 | [CHANGE_MANAGEMENT.md](CHANGE_MANAGEMENT.md) | Управление изменениями |
 | [RUNBOOKS.md](RUNBOOKS.md) | Инструкции администратора |
 
-git clone https://github.com/your-username/restaurant-manager.git
-cd restaurant-manager
-python -m venv venv
-source venv/bin/activate  # для Linux/Mac
-venv\Scripts\activate     # для Windows
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py createsuperuser
-python manage.py runserver
 
 ## 🚀 Быстрый старт
 ```bash
@@ -52,6 +43,15 @@ restaurant-manager/
 ├── docs/                # Документация
 ├── requirements.txt     # Зависимости
 └── README.md            # Документация
+git clone https://github.com/your-username/restaurant-manager.git
+cd restaurant-manager
+python -m venv venv
+source venv/bin/activate  # для Linux/Mac
+venv\Scripts\activate     # для Windows
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
 
 Python 3.9+
 PostgreSQL 13+
