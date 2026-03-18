@@ -27,3 +27,10 @@
 docker-compose up -d
 docker exec -it cassandra-seed cqlsh -f schema.cql
 docker exec -it cassandra-seed cqlsh -f data.cql
+
+## Контактная информация
+
+**Email:** ggwplanaya_gg27@mail.ru
+**Телефон:** +79281943714
+**Telegram:** @ggwplanaya
+**GitHub:** [Чебупели]
